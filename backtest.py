@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 class Backtest:
     """
@@ -28,9 +29,12 @@ class Backtest:
         """
         dates = sorted(self.df[self.date_col].unique())
         monthly_rets = []
+        monthly_ics = []
         for dt in dates[:-1]:
             sub = self.df[self.df[self.date_col] == dt]
             sub = sub.dropna(subset=[factor, 'forward_return'])
+            mask = np.isfinite(sub[factor])
+            sub = sub.loc[mask]
             if sub.empty:
                 monthly_rets.append(0.0)
                 continue
@@ -38,4 +42,7 @@ class Backtest:
             top = sub.nlargest(n, factor)
             ret = top['forward_return'].mean()
             monthly_rets.append(ret if pd.notna(ret) else 0.0)
-        return monthly_rets
+            
+            ic = sub[factor].corr(sub['forward_return'])
+            monthly_ics.append(ic)
+        return monthly_rets, monthly_ics
