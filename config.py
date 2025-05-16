@@ -10,8 +10,9 @@ DEFINITION_FILE = "行业商业模式分类.xlsx"
 OPERATOR_FILE = "operator_list.xlsx"
 INDUSTRY_L1_CODE = '801120'
 # INDUSTRY_L1_NAME = "食品饮料"
-# 申万一级“消费”行业代码示例
-CONSUMER_I1_CODES = ["801120", "801130", "801140"]
 now = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") 
 TRAINED_MODEL_DIR = DATA_PATH + f"/{now}"
 os.makedirs(TRAINED_MODEL_DIR)
+FUNDAMENTAL_PROCESSED_PATH = DATA_PATH + '/fundamental_data'
+if not os.path.exists(FUNDAMENTAL_PROCESSED_PATH):
+    os.makedirs(FUNDAMENTAL_PROCESSED_PATH)
