@@ -1,0 +1,104 @@
+﻿因子类别,因子名称,因子代码,因子后缀,因子方向
+业绩类,营收YOY,perf1,YOY,1
+业绩类,营收TTMYOY,perf2,YOY,1
+业绩类,营收TTMQOQ,perf3,QOQ,1
+业绩类,营收二阶导,perf4,SD,1
+业绩类,营收TTM二阶导,perf5,SD,1
+业绩类,归母净利润 YOY,perf6,YOY,1
+业绩类,归母净利润TTM YOY,perf7,YOY,1
+业绩类,归母净利润TTM QOQ,perf8,QOQ,1
+业绩类,归母净利润二阶导,perf9,SD,1
+业绩类,归母净利润TTM二阶导,perf10,SD,1
+业绩类,单季度毛利率,perf11,RAT,1
+业绩类,毛利率TTM,perf12,RAT,1
+业绩类,毛利率TTM同比差分,perf13,YOY,1
+业绩类,毛利率TTM环比差分,perf14,QOQ,1
+业绩类,销售商品所得现金 YOY,perf15,YOY,1
+业绩类,销售商品所得现金TTM YOY,perf16,YOY,1
+业绩类,销售商品所得现金TTM QOQ,perf17,QOQ,1
+业绩类,销售商品所得现金二阶导,perf18,SD,1
+业绩类,销售商品所得现金TTM二阶导,perf19,SD,1
+业绩类,CFO YOY,perf20,YOY,1
+业绩类,CFO TTM YOY,perf21,YOY,1
+业绩类,CFO TTM QOQ,perf22,QOQ,1
+业绩类,CFO二阶导,perf23,SD,1
+业绩类,CFO TTM二阶导,perf24,SD,1
+业绩类,ROE,perf25,RAT,1
+业绩类,ROETTM,perf26,RAT,1
+业绩类,ROETTM同比差分,perf27,YOY,1
+业绩类,ROETTM环比差分,perf28,QOQ,1
+业绩类,ROA,perf29,RAT,1
+业绩类,ROATTM,perf30,RAT,1
+业绩类,ROATTM同比差分,perf31,YOY,1
+业绩类,ROATTM环比差分,perf32,QOQ,1
+业绩类,NP_OR,perf33,RAT,1
+业绩类,NP_ORTTM,perf34,RAT,1
+业绩类,NP_ORTTM同比差分,perf35,YOY,1
+业绩类,NP_ORTTM环比差分,perf36,QOQ,1
+效率类,固定资产周转率,eff1,RAT,1
+效率类,应收账款周转率,eff2,RAT,1
+效率类,存货周转率,eff3,RAT,1
+效率类,总资产周转率,eff4,RAT,1
+效率类,固定资产周转率边际变化,eff5,QOQ,1
+效率类,应收账款周转率边际变化,eff6,QOQ,1
+效率类,存货周转率边际变化,eff7,QOQ,1
+效率类,总资产周转率边际变化,eff8,QOQ,1
+投入产出类,（CAPEX－DA）YOY,inp1,YOY,0
+投入产出类,（CAPEX－DA）TTMYOY,inp2,YOY,0
+投入产出类,(CAPEX－DA)TTM QOQ,inp3,QOQ,0
+投入产出类,销售费用率,inp4,RAT,0
+投入产出类,销售费用率占三费的比,inp5,RAT,0
+投入产出类,销售费用率TTM,inp6,RAT,0
+投入产出类,销售费用率TTM占三费的比,inp7,RAT,0
+投入产出类,销售费用率TTM边际变化,inp8,QOQ,0
+投入产出类,销售费用率同比差分,inp9,YOY,0
+投入产出类,销售费用率TTMYOY,inp10,YOY,0
+投入产出类,销售费用率占三费的比TTMYOY,inp11,YOY,0
+投入产出类,研发费用率,inp12,RAT,0
+投入产出类,研发费用率占三费的比,inp13,RAT,0
+投入产出类,研发费用率TTM,inp14,RAT,0
+投入产出类,研发费用率TTM占三费的比,inp15,RAT,0
+投入产出类,研发费用率TTM边际变化,inp16,QOQ,0
+投入产出类,研发费用率同比差分,inp17,YOY,0
+投入产出类,研发费用率TTMYOY,inp18,YOY,0
+投入产出类,研发费用率占三费的比TTMYOY,inp19,YOY,0
+投入产出类,研发销售费用率,inp20,RAT,0
+投入产出类,研发销售费用率占三费的比,inp21,RAT,0
+投入产出类,研发销售费用率TTM,inp22,RAT,0
+投入产出类,研发销售费用率TTM占三费的比,inp23,RAT,0
+投入产出类,研发销售费用率TTM边际变化,inp24,QOQ,0
+投入产出类,研发销售费用率同比差分,inp25,YOY,0
+投入产出类,研发销售费用率TTMYOY,inp26,YOY,0
+投入产出类,研发销售费用率占三费的比TTMYOY,inp27,YOY,0
+投入产出类,在建工程／固定资产,inp28,RAT,0
+投入产出类,在建工程／固定资产QOQ,inp29,QOQ,0
+投入产出类,在建工程／固定资产YOY,inp30,YOY,0
+投入产出类,CAPEXTTM／（在建工程＋固定资产）,inp31,RAT,0
+投入产出类,CAPEXTTM／（在建工程＋固定资产）QOQ,inp32,QOQ,0
+投入产出类, CAPEXTTM／（在建工程＋固定资产）YOY,inp33,YOY,0
+投入产出类,存货YOY,inp34,YOY,0
+盈利质量类,全部资产现金回收率（CFOTTM／平均总资产）,qua1,RAT,1
+盈利质量类,全部资产现金回收率边际变化,qua2,QOQ,1
+盈利质量类,盈利现金比例（CFOTTM/NPTTM）,qua3,RAT,1
+盈利质量类,盈利现金比例边际变化,qua4,QOQ,1
+盈利质量类,盈利现金比例YOY,qua5,YOY,1
+盈利质量类,销售收现比（销售商品所得现金TTM／营收TTM）,qua6,RAT,1
+盈利质量类,销售收现比边际变化,qua7,QOQ,1
+盈利质量类,销售收现比YOY,qua8,YOY,1
+盈利质量类,股息率TTM,qua9,RAT,1
+盈利质量类,股息率TTMYOY,qua10,YOY,1
+盈利质量类,应付职工薪酬/总负债,qua11,RAT,1
+盈利质量类,应付职工薪酬/总负债 YOY,qua12,YOY,1
+盈利质量类,支付给职工的现金TTM/应付职工薪酬,qua13,RAT,1
+盈利质量类,支付给职工的现金TTM/应付职工薪酬 YOY,qua14,YOY,1
+盈利质量类,支付给职工的现金TTM/CFOTTM,qua15,RAT,1
+盈利质量类,支付给职工的现金TTM/CFOTTM YOY,qua16,YOY,1
+占款能力,（预收账款+合同负债）/营收TTM,occ1,RAT,1
+占款能力,（预收账款+合同负债）/营收TTM YOY,occ2,YOY,1
+占款能力,（预收账款+合同负债）YOY,occ3,YOY,1
+占款能力,（预收账款+合同负债）/总资产,occ4,RAT,1
+占款能力,（预收账款+合同负债）/总资产 YOY,occ5,YOY,1
+占款能力,（预收+应付-应收-预付）/总资产,occ6,RAT,1
+占款能力,（预收+应付-应收-预付）/总资产YOY,occ7,YOY,1
+负债情况,资产负债率,lia1,RAT,0
+负债情况,资产负债率YOY,lia2,YOY,0
